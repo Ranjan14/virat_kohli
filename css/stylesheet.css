@@ -1,0 +1,82 @@
+/* Body */
+body{
+    font: 12px Helvetica, Arial, Sans-Serif;
+    color: #636363;
+    text-align: center;
+	zoom: 1;
+}
+
+/* header tag */
+header{
+    text-align: center;
+}
+
+/* Name */
+p#name{
+    font: 40px Helvetica, Arial, Sans-Serif;
+    text-align: center;
+    font-weight: 600;
+}
+
+/* navigation tag*/
+nav{    
+    font-size: 15px;
+    background-color: #e4e3e3;
+    opacity: 1;
+}
+
+/* unordered list */
+nav ul{
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    
+}
+
+/* lists */
+nav ul li{
+    background: url(images/nav.jpg);
+    font-size: 25px;
+    color: #636363;
+    cursor: pointer;
+    padding: 0.6rem;
+    text-align: center;
+}
+
+/* anchor tag inside the list*/
+#bl{
+    color: #636363;
+    text-decoration-line: none;
+}
+
+/* hover */
+nav ul li:hover{
+    background-color: white;
+    color:white;
+}
+
+/* to reduce the size */
+@media only screen and (max-width:500px){
+    nav ul{
+        flex-direction: column;
+    }
+
+    nav ul li{
+        text-align: center;
+    }
+}
+
+/* Footer tag for my contacts*/
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    background:#636363;
+    padding: 0.5rem 0.1rem;
+    font-size: 20px;
+}
+

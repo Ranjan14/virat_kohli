@@ -1,0 +1,12 @@
+/* display flex */
+div#fl{
+    display: flex;
+    flex-direction: column;
+}
+
+/* to align center */
+#ct{
+    text-align: center;
+    max-width: 600px;
+    margin: auto;
+}

@@ -1,0 +1,28 @@
+/* animation for name*/
+p#name{
+    animation: text 2s 1;
+}
+
+/* keyframe for animation */
+@keyframes text {
+    0% {
+        color:  #474040;
+        margin-bottom: -40%;
+    }
+
+    25%{
+        color:#84a9ac ;
+        margin-bottom: -40%;
+    }
+
+    50%{
+        color: black;
+        letter-spacing: 25px;
+        margin-bottom: -40%;
+    }
+
+    75%{
+        color:#84a9ac ;
+        margin-bottom: -40%;
+    }
+}

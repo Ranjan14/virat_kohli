@@ -1,0 +1,37 @@
+/* body */
+body{
+    text-align: center;
+}
+
+/* content */
+.about{
+    opacity: 0.7;
+    font: 10px Helvetica, Arial, Sans-Serif;
+    position: relative;
+    height: 30px;
+    width: 100%;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* text inside the content */
+.abt_text{
+    font-size: 20px;
+    color: #f2f0eb;
+    margin: 0%;
+    
+}
+
+/* about virat kohli in text*/
+.avk{
+    margin-top: 40px;
+}
+
+/* profile picture */
+img.profile{
+    float: right;
+    margin: 0px 40px 0 0;
+    height: 180px;
+    width: 150px;
+}

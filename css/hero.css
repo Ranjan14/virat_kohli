@@ -1,0 +1,40 @@
+/* Hero image */
+div.hero {  
+    position: relative;
+    height: 900px;
+    width: 100%;
+    opacity: 0.8;
+    zoom: 80%;    
+}
+
+/* text inside the hero image */
+div.hero_text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 45%;
+    transform: translate(-50%,-50%);
+    color: wheat;
+}
+
+/* button to go into the about page */
+#button{
+    text-decoration-line: none;
+    color: #636363;
+    background-color:  #e4e3e3;
+    font-size: 20px;
+}
+
+/* 
+#content{
+    margin: 90px;
+    transform: translate(0%,-100%);
+}
+ */
+
+/* to reduce the hero image */
+@media only screen and (max-width:800px){
+    div.hero{
+        zoom: 35%;
+    }
+}
